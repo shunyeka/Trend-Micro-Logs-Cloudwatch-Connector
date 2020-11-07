@@ -180,7 +180,7 @@ Visit the CloudWatch log
 
 After deployment it will generate API gateway URL that need to be added to DS smart check web console. To add api gateway URL navigate to web hooks in DSSC console and create web hook and add URL.
 
-![get_endpoint](https://github.com/shunyeka/Trend-Micro-Smartcheck-and-Threadfix-serverless-connector/raw/main/images/get_endpoint.jpg)
+![get_endpoint](https://github.com/shunyeka/Trend-Micro-Logs-Cloudwatch-Connector/raw/main/images/get_endpoint.jpg)
 
 Once application is deployed add or update bellow environment variables from lambda function.
 
@@ -213,5 +213,3 @@ We appreciate your feedback on any enhancement that needs to be done.
 ## License
 
 Apache License 2.0 (undefined)
-
-
