@@ -38,6 +38,8 @@ Visit the CloudWatch log
 
 ![visit_cloudwatch](https://github.com/shunyeka/Trend-Micro-Logs-Cloudwatch-Connector/raw/main/images/visit_cloudwatch.jpg)
 
+<br/><br/>
+
 ## 2. Application Security
 After deployment need to do some configuration in following steps:
 
@@ -95,7 +97,7 @@ After above configuration need to add any sample file with valunarable script fo
 
 Visit the CloudWatch log 
 
-![visit_cloudwatch](https://github.com/shunyeka/Trend-Micro-Logs-Cloudwatch-Connector/raw/main/images/visit_cloudwatch.jpg)
+<br/><br/>
 
 ## 3. Cloud Conformity
 After deployment need to do some configuration in following steps:
@@ -170,18 +172,16 @@ Click `Save changes`
 
 13. Finally, click `Save` at the bottom of this window
 
-
 Visit the CloudWatch log 
 
-![visit_cloudwatch](https://github.com/shunyeka/Trend-Micro-Logs-Cloudwatch-Connector/raw/main/images/visit_cloudwatch.jpg)
-
+<br/><br/>
 
 ## 4. Deep Security Smart Check
-
+<br/>
 After deployment it will generate API gateway URL that need to be added to DS smart check web console. To add api gateway URL navigate to web hooks in DSSC console and create web hook and add URL.
 
 ![get_endpoint](https://github.com/shunyeka/Trend-Micro-Logs-Cloudwatch-Connector/raw/main/images/get_endpoint.jpg)
-
+<br/>
 Once application is deployed add or update bellow environment variables from lambda function.
 
     Environment Variables:
@@ -197,19 +197,20 @@ Once application is deployed add or update bellow environment variables from lam
 
 
 ![add_environment](https://github.com/shunyeka/Trend-Micro-Logs-Cloudwatch-Connector/raw/main/images/add_environment.jpg)
-
+<br/>
 Add api gateway URL to DSSC web hook console
 
 ![add_api_to_webhook](https://github.com/shunyeka/Trend-Micro-Logs-Cloudwatch-Connector/raw/main/images/add_api_to_webhook.jpg)
-
+<br/>
 Visit the CloudWatch log 
 
-![visit_cloudwatch](https://github.com/shunyeka/Trend-Micro-Logs-Cloudwatch-Connector/raw/main/images/visit_cloudwatch.jpg)
+<br/>
  
 Now, you can able to see the notification coming from Trend Micro Deep security.
 
 We appreciate your feedback on any enhancement that needs to be done.
 
+<br/>
 ## License
 
 Apache License 2.0 (undefined)
